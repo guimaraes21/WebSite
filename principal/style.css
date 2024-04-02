@@ -9,12 +9,12 @@ body{
     min-height: 100vh;
 }
 
-.fundo{
+.fundo{ 
   width: 100%;
 }
 
 footer{
-    background-color: rgba(31, 28, 28, 0.836);
+    background-color:rgba(0, 0, 0, 0);
     color: white;
     text-align: center;
     padding: 0.8rem;
