@@ -1,20 +1,28 @@
-
 * {
     margin: 0px;
     padding: 0px;
 }
 
+/* navbar */
 
-body{
+.logo_img{
+    width: 5rem;
+}
+
+
+
+
+/* ----- */
+body {
     min-height: 100vh;
 }
 
-.fundo{ 
-  width: 100%;
+.fundo {
+    width: 100%;
 }
 
-footer{
-    background-color:rgba(0, 0, 0, 0);
+footer {
+    background-color: #212529;
     color: white;
     text-align: center;
     padding: 0.8rem;
