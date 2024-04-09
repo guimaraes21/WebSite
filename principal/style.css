@@ -7,10 +7,14 @@
 
 .logo_img{
     width: 5rem;
+    transition: transform 0.9s;
+    transform: translateX(0) scale(1.0);
 }
 
-
-
+.logo_img:hover, 
+.logo_img:focus{
+    transform: translateX(2px) scale(1.3)
+}
 
 /* ----- */
 body {
@@ -31,4 +35,8 @@ footer {
 
 a:hover {
     text-decoration: underline;
+}
+
+.aNav{
+    color: #ffffff;
 }
