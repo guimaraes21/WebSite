@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar */
+
+.logo_img{
+    width: 5rem;
+    transition: transform 0.9s;
+    transform: translateX(0) scale(1.0);
+}
+
+.logo_img:hover, 
+.logo_img:focus{
+    transform: translateX(2px) scale(1.3)
+}
+
+/* ----- */
+
+/* body */
+body {
+    min-height: 100vh;
+}
+
+.fundo {
+    width: 100%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.aNav{
+    color: #ffffff;
+}
+/* -------- */
+
+
+.dConteudo{
+    background-color: #ffffff;
+    height: 30rem;
+}
+
+
+footer {
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 0.8rem;
+    font-size: 1.3rem;
+}
