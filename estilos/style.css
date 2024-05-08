@@ -34,13 +34,11 @@ a:hover {
 .aNav{
     color: #ffffff;
 }
-/* -------- */
 
-
-.dConteudo{
-    background-color: #ffffff;
-    height: 30rem;
+#banner{
+    width:100%;
 }
+
 
 
 footer {
