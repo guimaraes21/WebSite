@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -5,14 +8,20 @@
 
 /* navbar */
 
-.logo_img{
+.logo_img {
     width: 5rem;
-    transition: transform 0.9s;
+    transition: transform 0.7s;
     transform: translateX(0) scale(1.0);
 }
 
-.logo_img:hover, 
-.logo_img:focus{
+
+.nav-link{
+    
+    font-size: larger;
+}
+
+.logo_img:hover,
+.logo_img:focus {
     transform: translateX(2px) scale(1.3)
 }
 
@@ -31,13 +40,41 @@ a:hover {
     text-decoration: underline;
 }
 
-.aNav{
+.aNav {
     color: #ffffff;
 }
 
-#banner{
-    width:100%;
+
+/* ------------container-background-video------------ */
+
+.container_video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    min-height: calc(100svh - 3rem);
 }
+
+.video_background {
+    position: absolute;
+    display: block;
+    z-index: 0;
+    min-height: 100%;
+    min-width: 100%;
+    filter: brightness(0.7);
+}
+
+.texto_video {
+    z-index: 1;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+
+
 
 
 
