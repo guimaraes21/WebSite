@@ -8,27 +8,6 @@
 
 /* navbar */
 
-.logo_img {
-    width: 5rem;
-    transition: transform 0.7s;
-    transform: translateX(0) scale(1.0);
-}
-
-
-.nav-link{
-    
-    font-size: larger;
-}
-
-.logo_img:hover,
-.logo_img:focus {
-    transform: translateX(2px) scale(1.3)
-}
-
-.navbar-nav{
-    gap: 15px;
-}
-
 /* ----- */
 
 /* body */
