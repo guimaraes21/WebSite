@@ -100,8 +100,16 @@ a:hover {
 
 .logo-video {
     z-index: 1;
-    width: 200px;
-    height: 200px;
+    width: 20rem;
+    transition: transform 0.9s;
+    transform: translateX(0) scale(1.0);
+}
+
+
+
+.logo-video:hover, 
+.logo-video:focus{
+    transform: translateX(2px) scale(1.3)
 }
 
 
