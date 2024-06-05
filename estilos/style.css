@@ -129,14 +129,16 @@ a:hover {
 /* footer */
 
 footer {
+    background-color: #0b0d14;
     font-family: 'inter', sans-serif;
-    background: url(/midia/fundo_footer.jpg);
+    display: flex;
+    height: 10rem;
     
 
 }
 
 .container-footer {
-    color: #fff;
+    
     display: flex;
     height: 10rem;
 }
