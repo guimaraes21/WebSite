@@ -131,14 +131,7 @@ a:hover {
 footer {
     background-color: #0b0d14;
     font-family: 'inter', sans-serif;
-    display: flex;
-    height: 10rem;
+   
     
 
-}
-
-.container-footer {
-    
-    display: flex;
-    height: 10rem;
 }
