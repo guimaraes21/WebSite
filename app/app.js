@@ -1,11 +1,5 @@
-// sidenav-initialization
 $(document).ready(function () {
     $('.sidenav').sidenav();
-});
-//   --
-
-// parallax-initialization
-$(document).ready(function () {
+    $('.slider').slider();
     $('.parallax').parallax();
 });
-//   --
